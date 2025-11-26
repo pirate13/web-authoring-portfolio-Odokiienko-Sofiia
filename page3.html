@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behind the Taste — Share Your Feelings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Behind the Taste</h1>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">How It Works</a></li>
+            <li><a href="page3.html">Share Your Feelings</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Share Your Feelings</h2>
+        <p>
+            This is where we stop guessing and listen to you.
+            Use the form below to tell us how films actually feel from the inside — not just what genre they belong to.
+        </p>
+        <p>
+            For the purposes of this project, this page also shows different types of HTML form inputs:
+            text fields, numbers, dates, radio buttons, checkboxes, and a longer text area.
+        </p>
+    </section>
+
+    <section>
+        <h3>Feedback form</h3>
+
+        <form action="#" method="post">
+            <div class="form-row">
+                <label for="email">Your email (optional):</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+            </div>
+
+            <div class="form-row">
+                <label for="movies-per-month">How many films do you usually watch per month?</label>
+                <input type="number" id="movies-per-month" name="movies-per-month" min="0" max="100">
+            </div>
+
+            <div class="form-row">
+                <label for="last-movie-date">When did you last watch a film from start to finish?</label>
+                <input type="date" id="last-movie-date" name="last-movie-date">
+            </div>
+
+            <fieldset class="form-row">
+                <legend>After watching a film you truly love, you usually feel:</legend>
+
+                <label>
+                    <input type="radio" name="main-mood" value="calm">
+                    Calm and grounded
+                </label>
+                <label>
+                    <input type="radio" name="main-mood" value="excited">
+                    Energised and excited
+                </label>
+                <label>
+                    <input type="radio" name="main-mood" value="mixed">
+                    Mixed or complicated feelings
+                </label>
+            </fieldset>
+
+            <div class="form-row">
+                <label>
+                    <input type="checkbox" name="anonymous" value="yes">
+                    Store my feedback anonymously
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label for="scene-description">Describe one scene that stayed with you:</label>
+                <textarea
+                    id="scene-description"
+                    name="scene-description"
+                    rows="5"
+                    cols="40"
+                    placeholder="What happened in the scene, and what did it stir in you?"
+                ></textarea>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">Send feedback</button>
+            </div>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Behind the Taste. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
