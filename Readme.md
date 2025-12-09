@@ -59,3 +59,8 @@ The goal of the project is to demonstrate the main HTML and CSS features we lear
 - How to style pages using one external CSS file.
 - How to use tables, forms, and images correctly.
 - How to keep a consistent design across pages.
+
+I used these resources:
+W3Schools HTML Reference — https://www.w3schools.com/html/
+W3Schools CSS Reference — https://www.w3schools.com/css/
+MDN Web Docs (HTML Elements & CSS Properties) — https://developer.mozilla.org/
