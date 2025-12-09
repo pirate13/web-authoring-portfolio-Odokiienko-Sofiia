@@ -45,7 +45,7 @@ The goal of the project is to demonstrate the main HTML and CSS features we lear
 1. Download or clone the repository.  
 2. Open `index.html` in any modern web browser.  
 3. Use the navigation links to move between pages.
-https://pirate13.github.io/web-authoring-portfolio-Odokiienko-Sofiia/
+4. Or click here https://pirate13.github.io/web-authoring-portfolio-Odokiienko-Sofiia/
 
 ## Credits
 
